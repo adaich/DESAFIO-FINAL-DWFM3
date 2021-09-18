@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+}
+
+h2 {
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+
+p {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+/* HEADER */
+
+.menu {
+  max-width: auto;
+  margin: 18px 20px 94px 17px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-logo {
+  width: 54px;
+  height: 50px;
+}
+
+.option {
+  background-color: black;
+  width: 36px;
+  height: 6px;
+}
+
+.menu-options {
+  display: flex;
+  flex-direction: column;
+  width: 36px;
+  height: 32px;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.welcome {
+  height: 454px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.welcome-text {
+  margin: 0 auto;
+  width: 291px;
+  height: 96px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.my-photo {
+  width: 318px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+/* MAIN */
+
+/* SECTION 1 */
+
+.section-one {
+  height: 538px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-one > .presentation > h2 {
+  color: white;
+  font-size: 32px;
+  margin: 0;
+  text-align: center;
+}
+
+.section-one > .presentation > p {
+  color: white;
+  font-size: 16px;
+  width: 312px;
+  height: 193px;
+  margin: 0;
+}
+
+.check-image {
+  height: 80px;
+  width: 80px;
+  margin: 57px 0 68px 0;
+}
+
+.presentation {
+  margin-top: 55px;
+  height: 278px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* SECTION 2 */
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 1375px;
+}
+
+.services-title {
+  margin-top: 69px;
+  margin-bottom: 0;
+  font-size: 32px;
+}
+
+.all-services {
+  height: 1135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 66px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 262px;
+  height: 307px;
+}
+
+.computer-photo {
+  width: 138px;
+  height: 128px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+}
+
+.service-paragraph {
+  font-size: 16px;
+  width: 262px;
+  height: 117px;
+  text-align: center;
+  margin: 0;
+}
+
+/* SECTION 3 */
+
+.section-three {
+  background-color: black;
+  height: 655px;
+}
+
+.form-title {
+  color: white;
+  font-size: 32px;
+  margin: 64px auto;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label {
+  color: white;
+  font-family: "Roboto";
+}
+
+.fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-text {
+  width: 335px;
+  height: 45px;
+}
