@@ -21,9 +21,15 @@
     <div class="menu">
       <img class="menu-logo" src="./logo.gif" alt="">
       <div class="menu-options">
-        <div class="option"></div>
-        <div class="option"></div>
-        <div class="option"></div>
+        <div class="option">
+          <a class="option-link" href="#s1">quien soy</a>
+        </div>
+        <div class="option">
+          <a class="option-link" href="#s2">servicios</a>
+        </div>
+        <div class="option">
+          <a class="option-link" href="#s3">escribime</a>
+        </div>
       </div>
     </div>
     <div class="welcome">
@@ -32,14 +38,16 @@
     </div>
   </header>
   <main class="main">
-    <section class="section-one">
-      <div class="presentation">
-        <h2>Soy Ariel</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum dignissimos nihil veniam sed sequi, cumque, atque sint aperiam velit hic consectetur ducimus reiciendis fuga ratione blanditiis.</p>
+    <section class="section-one" id="s1">
+      <div class="section-one-content">
+        <div class="presentation">
+          <h2>Soy Ariel</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum dignissimos nihil veniam sed sequi, cumque, atque sint aperiam velit hic consectetur ducimus reiciendis fuga ratione blanditiis.</p>
+        </div>
+        <img class="check-image" src="./check (1) 1.svg" alt="">
       </div>
-      <img class="check-image" src="./check (1) 1.svg" alt="">
     </section>
-    <section class="section-two">
+    <section class="section-two" id="s2">
       <h2 class="services-title">Mis servicios</h2>
       <div class="all-services">
         <div class="service">
@@ -59,22 +67,24 @@
         </div>
       </div>
     </section>
-    <section class="section-three">
-      <h2 class="form-title">Escribime</h2>
-      <div class="form">
-        <div class="fieldset">
-          <label class="label" for="name">NOMBRE</label>
-          <input class="input-text" id="name">
-        </div>
-        <div class="fieldset">
-          <label class="label" for="email">EMAIL</label>
-          <input class="input-text" id="email" type="email">
-        </div>
-        <div class="fieldset">
-          <label class="label" for="message">MENSAJE</label>
-          <textarea class="textarea" id="message"></textarea>
-        </div>
-        <div class="button-section">
+    <section class="section-three" id="s3">
+      <div class="section-three-content">
+        <h2 class="form-title">Escribime</h2>
+        <div class="form">
+          <div class="inputs-area">
+            <div class="fieldset">
+              <label class="label" for="name">NOMBRE</label>
+              <input class="input-text" id="name">
+            </div>
+            <div class="fieldset">
+              <label class="label" for="email">EMAIL</label>
+              <input class="input-text" id="email" type="email">
+            </div>
+            <div class="fieldset">
+              <label class="label" for="message">MENSAJE</label>
+              <textarea class="textarea" id="message"></textarea>
+            </div>
+          </div>
           <button class="button">Enviar</button>
         </div>
       </div>
@@ -83,20 +93,20 @@
   <footer class="footer">
     <div class="logo-area">
       <img class="footer-logo" src="./logo.gif" alt="">
-      <p>© 2021 Ariel</p>
+      <p class="brand-name">© 2021 Ariel</p>
     </div>
     <div class="social-media">
       <div class="instagram">
         <img src="./instagram.svg" class="instagram-logo" alt="">
-        <p>Instagram</p>
+        <p class="smedia-name">Instagram</p>
       </div>
       <div class="linkedin">
         <img src="./linkedin.svg" class="linkedin-logo" alt="">
-        <p>Linkedin</p>
+        <p class="smedia-name">Linkedin</p>
       </div>
       <div class="github">
         <img src="./github.svg" class="github-logo" alt="">
-        <p>Github</p>
+        <p class="smedia-name">Github</p>
       </div>
     </div>
   </footer>
